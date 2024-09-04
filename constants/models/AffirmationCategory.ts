@@ -5,6 +5,6 @@ export interface AffirmationCategory {
 
 export interface GalleryPreviewData {
     id: number;
-    title: string;
+    text: string;
     image: string;
 }

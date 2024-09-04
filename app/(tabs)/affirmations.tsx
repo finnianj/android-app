@@ -1,4 +1,6 @@
 import AppGradient from '@/components/AppGradient';
+import AFFIRMATION_GALLERY from '@/constants/affirmation-gallery';
+import GuidedAffirmationsGallery from '@/components/GuidedAffirmationsGallery';
 import React from 'react';
 import { View, Text, ScrollView } from 'react-native';
 
@@ -9,7 +11,13 @@ const Affirmations = () => {
             <ScrollView showsVerticalScrollIndicator={false}>
                 <Text className='text-zinc-50 text-3xl font-bold'>Change your beliefs with affirmations</Text>
                 <View>
-
+                    {AFFIRMATION_GALLERY.map((g) => (
+                        <GuidedAffirmationsGallery 
+                            key={g.title} 
+                            title={g.title} 
+                            previews={g.data} 
+                        />
+                    ))}
                 </View>
             </ScrollView>
         </AppGradient>
