@@ -39,6 +39,12 @@ const Meditate = () => {
         };
     }, [secondsRemaining, isMediating]);
 
+    useEffect(() => {
+        return () => {
+            audioSound?.unloadAsync();
+        }
+    }, [audioSound]);
+
     const toggleMeditationSessionStatus = async () => {
         if (secondsRemaining === 0) setSecondsRemaining(10);
         setIsMediating(!isMediating);
@@ -64,6 +70,11 @@ const Meditate = () => {
         return sound;
     }
 
+    const handleAdjustDuration = () => {
+        if (isMediating) toggleMeditationSessionStatus();
+        router.push('/(modal)/adjust-meditation-duration');
+    }
+
     // Format time
     const formattedTimeMinutes = String(Math.floor(secondsRemaining / 60)).padStart(2, '0');
     const formattedTimeSeconds = String(secondsRemaining % 60).padStart(2, '0');
@@ -87,7 +98,8 @@ const Meditate = () => {
                         </View>
                     </View>
                     <View className='mb-5'>
-                        <CustomButton title='Start' onPress={toggleMeditationSessionStatus} />
+                        <CustomButton title='Adjust Duration' onPress={handleAdjustDuration} />
+                        <CustomButton title='Start' containerStyles='mt-4' onPress={toggleMeditationSessionStatus} />
                     </View>
                 </AppGradient>
             </ImageBackground>
