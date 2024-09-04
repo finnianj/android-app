@@ -1,5 +1,4 @@
-import React, { Component } from 'react'
-import { Text, View } from 'react-native'
+import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 
 export function Content({ children } : { children: React.ReactNode }) {

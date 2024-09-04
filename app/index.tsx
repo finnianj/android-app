@@ -19,9 +19,7 @@ const App = () => {
         resizeMode='cover'
         className='flex-1 fixed top-0 left-0 w-full h-full'
       >
-        <AppGradient
-          colors={['rgba(0,0,0,0.4)', 'rgba(0,0,0,0.8)']}
-        >
+        <AppGradient colors={['rgba(0,0,0,0.4)', 'rgba(0,0,0,0.8)']}>
             <SafeAreaView className='flex-1 px-1 justify-between'>
               <View>
                 <Text className='text-white text-center text-4xl font-bold'>
@@ -40,6 +38,7 @@ const App = () => {
               <StatusBar style='light' />
             </SafeAreaView>
         </AppGradient>
+        
       </ImageBackground>
     </View>
   );
