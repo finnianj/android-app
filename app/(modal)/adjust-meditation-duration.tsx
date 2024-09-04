@@ -1,13 +1,16 @@
 import AppGradient from '@/components/AppGradient';
-import React from 'react';
+import React, { useContext } from 'react';
 import { View, Text, Pressable } from 'react-native';
 import { AntDesign } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import CustomButton from '@/components/CustomButton';
+import { TimerContext } from '@/context/TimerContext';
 
 const AdjustMeditationDuration = () => {
+    const { setDuration } = useContext(TimerContext)
+    
     const handlePress = (duration: number) => {
-        console.log(duration);
+        setDuration(duration);
         router.back();
     }
 
