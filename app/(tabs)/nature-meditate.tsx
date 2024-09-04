@@ -19,7 +19,7 @@ export function NatureMeditate() {
           <View>
             <FlatList 
               data={MEDITATION_DATA} 
-              className='mb-40' 
+              className='mb-36' 
               keyExtractor={item => item.id.toString()}
               showsVerticalScrollIndicator={false}
               renderItem={({ item }) => (

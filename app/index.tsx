@@ -2,7 +2,7 @@ import { View, Text, ImageBackground } from 'react-native';
 
 import React from 'react';
 import beachImage from '@/assets/meditation-images/beach.webp';
-import { LinearGradient } from 'expo-linear-gradient';
+
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
 import { useRouter } from 'expo-router';
@@ -38,7 +38,7 @@ const App = () => {
               <StatusBar style='light' />
             </SafeAreaView>
         </AppGradient>
-        
+
       </ImageBackground>
     </View>
   );
