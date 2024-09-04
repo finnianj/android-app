@@ -1,7 +1,7 @@
 import { GalleryPreviewData } from '@/constants/models/AffirmationCategory';
 import { Link } from 'expo-router';
 import React from 'react';
-import { View, Text, FlatList, Pressable, Image } from 'react-native';
+import { View, Text, FlatList, Pressable, Image, ImageProps, ImageSourcePropType } from 'react-native';
 
 interface GuidedAffirmationsGalleryProps {
     title: string;
@@ -24,7 +24,7 @@ const GuidedAffirmationsGallery = ({ title, previews }: GuidedAffirmationsGaller
                     <Link href={`/affirmations/${item.id}`} asChild>
                         <Pressable>
                             <View className='h-36 w-32 rounded-md mr-4'>
-                                <Image source={{ uri: item.image }} resizeMode='cover' className='w-full h-full' />
+                                <Image source={item.image as ImageSourcePropType} resizeMode='cover' className='w-full h-full' />
                             </View>
                         </Pressable>
                     </Link>
