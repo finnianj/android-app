@@ -10,13 +10,13 @@ import { LinearGradient } from 'expo-linear-gradient'
 import { router } from 'expo-router'
 
 
-export function NatureMeditate() {
+export function BirdIndex() {
     return (
       <View className='flex-1'>
         <AppGradient colors={['#161b2e', '#0a4d4a', '#766e67']}>
           <View className='mb-6'>
             <Text className='text-gray-200 mb-3 font-bold text-4xl text-left'>Welcome!</Text>
-            <Text className='text-gray-200 font-medium text-xl'>Start learning about birds today.</Text>
+            <Text className='text-gray-200 font-medium text-xl'>Start learning about common birds today.</Text>
             <StatusBar style='light' />
           </View>
           <View>
@@ -27,7 +27,7 @@ export function NatureMeditate() {
               showsVerticalScrollIndicator={false}
               renderItem={({ item }) => (
                 <Pressable 
-                  onPress={() => router.push(`/meditate/${item.id}`)}
+                  onPress={() => router.push(`/bird/${item.id}`)}
                   className='h-48 my-3 rounded-md overflow-hidden'
                 >
                   <ImageBackground
@@ -48,4 +48,4 @@ export function NatureMeditate() {
     )
 }
 
-export default NatureMeditate
+export default BirdIndex;

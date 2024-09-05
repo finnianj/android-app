@@ -9,16 +9,16 @@ const TabLayout = () => {
   return (
     <Tabs screenOptions={{ headerShown: false, tabBarActiveTintColor: Colors.primary }}>
         <Tabs.Screen 
-            name='nature-meditate' 
+            name='bird-index' 
             options={{ 
-                tabBarLabel: 'Meditate', 
+                tabBarLabel: 'Birds', 
                 tabBarIcon:  ({ color }) => <Entypo name='open-book' size={24} color={color} />
             }} 
         />
         <Tabs.Screen 
-            name='affirmations' 
+            name='countries' 
             options={{ 
-                tabBarLabel: 'Affirmations', 
+                tabBarLabel: 'Countries', 
                 tabBarIcon:  ({ color }) => <Entypo name='open-book' size={24} color={color} />
             }} 
         />

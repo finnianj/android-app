@@ -23,15 +23,15 @@ const App = () => {
             <SafeAreaView className='flex-1 px-1 justify-between'>
               <View>
                 <Text className='text-white text-center text-4xl font-bold'>
-                  Simple Meditation
+                  Common Birds
                 </Text>
                 <Text className='text-white text-center text-lg mt-3'>
-                  stuff
+                  Get to know some of the most common birds and where to find them!
                 </Text>
               </View>
               <View>
                 <CustomButton
-                  onPress={() => router.push('/nature-meditate')}
+                  onPress={() => router.push("/bird-index")}
                   title='Start'
                 />
               </View>
