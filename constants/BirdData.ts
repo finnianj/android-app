@@ -170,4 +170,28 @@ const Birds: BirdDataType[] = [
     }
 ];
 
+// export const AUDIO_FILES: { [key: string]: any } = {
+//     // "Great_Tit.ogg": require("@/assets/birdsong/Great_Tit.ogg"),
+//     // "House_Sparrow.ogg": require("@/assets/birdsong/House_Sparrow.ogg"),
+//     "Large-billed_Crow.mp3": require("@/assets/birdsong/Large-billed_Crow.mp3"),
+//     "Blackbird.ogg": BlackBird,
+//     "Blue_Tit.ogg": require("@/assets/birdsong/Blue_Tit.ogg"),
+//     "Starling.ogg": require("@/assets/birdsong/Starling.ogg"),
+//     "Chaffinch.ogg": require("@/assets/birdsong/Chaffinch.ogg"),
+//     "Eurasian_Tree_Sparrow.ogg": require("@/assets/birdsong/Eurasian_Tree_Sparrow.ogg"),
+//     "Brown-eared_Bulbul.ogg": require("@/assets/birdsong/Brown-eared_Bulbul.ogg"),
+//     "Oriental_Turtle_Dove.mp3": require("@/assets/birdsong/Oriental_Turtle_Dove.mp3"),
+//     "Australian_Magpie.ogg": require("@/assets/birdsong/Australian_Magpie.ogg"),
+//     "Rainbow_Lorikeet.ogg": require("@/assets/birdsong/Rainbow_Lorikeet.ogg"),
+//     "Laughing_Kookaburra.mp3": require("@/assets/birdsong/Laughing_Kookaburra.mp3"),
+//     // "Sulphur-crested_Cockatoo.ogg": require("@/assets/birdsong/Sulphur-crested_Cockatoo.ogg"),
+//     "Common_Bulbul.ogg": require("@/assets/birdsong/Common_Bulbul.ogg"),
+//     "Superb_Starling.ogg": require("@/assets/birdsong/Superb_Starling.ogg"),
+//     "Great_Kiskadee.ogg": require("@/assets/birdsong/Great_Kiskadee.ogg"),
+//     "Northern_Cardinal.ogg": require("@/assets/birdsong/Northern_Cardinal.ogg"),
+//     "American_Robin.ogg": require("@/assets/birdsong/American_Robin.ogg"),
+//     // "Yellow-vented_Bulbul.ogg": require("@/assets/birdsong/Yellow-vented_Bulbul.ogg")
+// };
+
+
 export default Birds;
