@@ -14,7 +14,7 @@ const Birds: BirdDataType[] = [
         scientificName: "Passer domesticus",
         description: "A small bird found in most parts of the world, commonly seen in urban areas.",
         image: "House_Sparrow.jpg",
-        audio: "House_Sparrow.ogg"
+        audio: "House_Sparrow.mp3"
     },
     {
         id: 2,
@@ -22,7 +22,7 @@ const Birds: BirdDataType[] = [
         scientificName: "Parus major",
         description: "A widespread and familiar garden bird, known for its black head and distinctive call.",
         image: "Great_Tit.jpg",
-        audio: "Great_Tit.ogg"
+        audio: "Great_Tit.mp3"
     },
     {
         id: 3,
@@ -30,7 +30,7 @@ const Birds: BirdDataType[] = [
         scientificName: "Turdus merula",
         description: "A common thrush species in Europe, known for its melodious song and all-black males.",
         image: "Blackbird.jpg",
-        audio: "Blackbird.ogg"
+        audio: "Blackbird.mp3"
     },
     {
         id: 4,
@@ -38,7 +38,7 @@ const Birds: BirdDataType[] = [
         scientificName: "Cyanistes caeruleus",
         description: "A small and acrobatic bird, recognized by its blue and yellow plumage, commonly seen in gardens.",
         image: "Blue_Tit.jpg",
-        audio: "Blue_Tit.ogg"
+        audio: "Blue_Tit.mp3"
     },
     {
         id: 5,
@@ -46,7 +46,7 @@ const Birds: BirdDataType[] = [
         scientificName: "Sturnus vulgaris",
         description: "A bird with iridescent feathers that often gathers in large, noisy flocks.",
         image: "Starling.jpg",
-        audio: "Starling.ogg"
+        audio: "Starling.mp3"
     },
     {
         id: 6,
@@ -54,7 +54,7 @@ const Birds: BirdDataType[] = [
         scientificName: "Fringilla coelebs",
         description: "A colorful finch with a distinctive song, commonly found across Europe and parts of Asia.",
         image: "Chaffinch.jpg",
-        audio: "Chaffinch.ogg"
+        audio: "Chaffinch.mp3"
     },
     {
         id: 7,
@@ -62,7 +62,7 @@ const Birds: BirdDataType[] = [
         scientificName: "Passer montanus",
         description: "A small sparrow species often found in rural areas and gardens, known for its chestnut-brown head.",
         image: "Eurasian_Tree_Sparrow.jpg",
-        audio: "Eurasian_Tree_Sparrow.ogg"
+        audio: "Eurasian_Tree_Sparrow.mp3"
     },
     {
         id: 8,
@@ -70,7 +70,7 @@ const Birds: BirdDataType[] = [
         scientificName: "Hypsipetes amaurotis",
         description: "A common bird in East Asia, recognized by its grey-brown plumage and loud, distinctive calls.",
         image: "Brown-eared_Bulbul.jpg",
-        audio: "Brown-eared_Bulbul.ogg"
+        audio: "Brown-eared_Bulbul.mp3"
     },
     {
         id: 9,
@@ -94,7 +94,7 @@ const Birds: BirdDataType[] = [
         scientificName: "Gymnorhina tibicen",
         description: "A large, black-and-white passerine bird known for its complex vocalizations and territorial behavior.",
         image: "Australian_Magpie.jpg",
-        audio: "Australian_Magpie.ogg"
+        audio: "Australian_Magpie.mp3"
     },
     {
         id: 12,
@@ -102,7 +102,7 @@ const Birds: BirdDataType[] = [
         scientificName: "Trichoglossus moluccanus",
         description: "A brightly colored parrot found in Australia, known for its vibrant plumage and playful nature.",
         image: "Rainbow_Lorikeet.jpg",
-        audio: "Rainbow_Lorikeet.ogg"
+        audio: "Rainbow_Lorikeet.mp3"
     },
     {
         id: 13,
@@ -118,7 +118,7 @@ const Birds: BirdDataType[] = [
         scientificName: "Cacatua galerita",
         description: "A large, white parrot with a distinctive yellow crest, commonly seen in flocks.",
         image: "Sulphur-crested_Cockatoo.jpg",
-        audio: "Sulphur-crested_Cockatoo.ogg"
+        audio: "Sulphur-crested_Cockatoo.mp3"
     },
     {
         id: 15,
@@ -126,7 +126,7 @@ const Birds: BirdDataType[] = [
         scientificName: "Pycnonotus barbatus",
         description: "A widespread species in Africa, known for its distinctive song and adaptability to various habitats.",
         image: "Common_Bulbul.jpg",
-        audio: "Common_Bulbul.ogg"
+        audio: "Common_Bulbul.mp3"
     },
     {
         id: 16,
@@ -134,7 +134,7 @@ const Birds: BirdDataType[] = [
         scientificName: "Lamprotornis superbus",
         description: "A brilliantly colored bird native to East Africa, with metallic blue-green plumage.",
         image: "Superb_Starling.jpg",
-        audio: "Superb_Starling.ogg"
+        audio: "Superb_Starling.mp3"
     },
     {
         id: 17,
@@ -142,7 +142,7 @@ const Birds: BirdDataType[] = [
         scientificName: "Pitangus sulphuratus",
         description: "A large tyrant flycatcher found in the Americas, known for its bold behavior and loud calls.",
         image: "Great_Kiskadee.jpg",
-        audio: "Great_Kiskadee.ogg"
+        audio: "Great_Kiskadee.mp3"
     },
     {
         id: 18,
@@ -150,7 +150,7 @@ const Birds: BirdDataType[] = [
         scientificName: "Cardinalis cardinalis",
         description: "A strikingly red bird commonly found across North America, recognized for its sharp crest and melodious song.",
         image: "Northern_Cardinal.jpg",
-        audio: "Northern_Cardinal.ogg"
+        audio: "Northern_Cardinal.mp3"
     },
     {
         id: 19,
@@ -158,7 +158,7 @@ const Birds: BirdDataType[] = [
         scientificName: "Turdus migratorius",
         description: "A common sight in gardens and woodlands across North America, known for its orange-red breast.",
         image: "American_Robin.jpg",
-        audio: "American_Robin.ogg"
+        audio: "American_Robin.mp3"
     },
     {
         id: 20,
@@ -166,7 +166,7 @@ const Birds: BirdDataType[] = [
         scientificName: "Pycnonotus goiavier",
         description: "A tropical bird found in Southeast Asia, known for its yellow-tinged underparts.",
         image: "Yellow-vented_Bulbul.jpg",
-        audio: "Yellow-vented_Bulbul.ogg"
+        audio: "Yellow-vented_Bulbul.mp3"
     },
     {
         id: 21,
@@ -174,7 +174,7 @@ const Birds: BirdDataType[] = [
         scientificName: "Pica pica",
         description: "A highly intelligent bird, common in Europe and parts of Asia, known for its black and white plumage.",
         image: "Eurasian_Magpie.jpg",
-        audio: "Eurasian_Magpie.ogg"
+        audio: "Eurasian_Magpie.mp3"
     },
     {
         id: 22,
@@ -190,7 +190,7 @@ const Birds: BirdDataType[] = [
         scientificName: "Agelaius phoeniceus",
         description: "A common sight in wetlands across North America, recognizable by the red patches on its wings.",
         image: "Red-winged_Blackbird.png",
-        audio: "Red-winged_Blackbird.ogg"
+        audio: "Red-winged_Blackbird.mp3"
     },
     {
         id: 24,
@@ -198,7 +198,7 @@ const Birds: BirdDataType[] = [
         scientificName: "Erithacus rubecula",
         description: "A small, friendly bird, known for its orange-red breast, commonly seen across Europe.",
         image: "European_Robin.jpg",
-        audio: "European_Robin.ogg"
+        audio: "European_Robin.mp3"
     },
     {
         id: 25,
@@ -206,7 +206,7 @@ const Birds: BirdDataType[] = [
         scientificName: "Columba livia",
         description: "One of the most widespread bird species, found in cities and rural areas worldwide.",
         image: "Rock_Pigeon.jpg",
-        audio: "Rock_Pigeon.ogg"
+        audio: "Rock_Pigeon.mp3"
     },
     {
         id: 26,
@@ -214,7 +214,7 @@ const Birds: BirdDataType[] = [
         scientificName: "Geopelia striata",
         description: "A small, peaceful bird common in Southeast Asia, recognized by its zebra-like stripes.",
         image: "Zebra_Dove.jpg",
-        audio: "Zebra_Dove.ogg"
+        audio: "Zebra_Dove.mp3"
     },
     {
         id: 27,
@@ -246,32 +246,42 @@ const Birds: BirdDataType[] = [
         scientificName: "Anas platyrhynchos",
         description: "A familiar duck species, found in wetlands across the Northern Hemisphere.",
         image: "Mallard.jpg",
-        audio: "Mallard.ogg"
+        audio: "Mallard.mp3"
     }
 ];
 
-// export const AUDIO_FILES: { [key: string]: any } = {
-//     // "Great_Tit.ogg": require("@/assets/birdsong/Great_Tit.ogg"),
-//     // "House_Sparrow.ogg": require("@/assets/birdsong/House_Sparrow.ogg"),
-//     "Large-billed_Crow.mp3": require("@/assets/birdsong/Large-billed_Crow.mp3"),
-//     "Blackbird.ogg": BlackBird,
-//     "Blue_Tit.ogg": require("@/assets/birdsong/Blue_Tit.ogg"),
-//     "Starling.ogg": require("@/assets/birdsong/Starling.ogg"),
-//     "Chaffinch.ogg": require("@/assets/birdsong/Chaffinch.ogg"),
-//     "Eurasian_Tree_Sparrow.ogg": require("@/assets/birdsong/Eurasian_Tree_Sparrow.ogg"),
-//     "Brown-eared_Bulbul.ogg": require("@/assets/birdsong/Brown-eared_Bulbul.ogg"),
-//     "Oriental_Turtle_Dove.mp3": require("@/assets/birdsong/Oriental_Turtle_Dove.mp3"),
-//     "Australian_Magpie.ogg": require("@/assets/birdsong/Australian_Magpie.ogg"),
-//     "Rainbow_Lorikeet.ogg": require("@/assets/birdsong/Rainbow_Lorikeet.ogg"),
-//     "Laughing_Kookaburra.mp3": require("@/assets/birdsong/Laughing_Kookaburra.mp3"),
-//     // "Sulphur-crested_Cockatoo.ogg": require("@/assets/birdsong/Sulphur-crested_Cockatoo.ogg"),
-//     "Common_Bulbul.ogg": require("@/assets/birdsong/Common_Bulbul.ogg"),
-//     "Superb_Starling.ogg": require("@/assets/birdsong/Superb_Starling.ogg"),
-//     "Great_Kiskadee.ogg": require("@/assets/birdsong/Great_Kiskadee.ogg"),
-//     "Northern_Cardinal.ogg": require("@/assets/birdsong/Northern_Cardinal.ogg"),
-//     "American_Robin.ogg": require("@/assets/birdsong/American_Robin.ogg"),
-//     // "Yellow-vented_Bulbul.ogg": require("@/assets/birdsong/Yellow-vented_Bulbul.ogg")
-// };
+export const AUDIO_FILES: { [key: string]: any } = {
+    "Great_Tit.mp3": require("@/assets/birdsong/Great_Tit.mp3"),
+    "House_Sparrow.mp3": require("@/assets/birdsong/House_Sparrow.mp3"),
+    "Large-billed_Crow.mp3": require("@/assets/birdsong/Large-billed_Crow.mp3"),
+    "Blackbird.mp3": require('@/assets/birdsong/Large-billed_Crow.mp3'),
+    "Blue_Tit.mp3": require("@/assets/birdsong/Blue_Tit.mp3"),
+    "Starling.mp3": require("@/assets/birdsong/Starling.mp3"),
+    "Chaffinch.mp3": require("@/assets/birdsong/Chaffinch.mp3"),
+    "Eurasian_Tree_Sparrow.mp3": require("@/assets/birdsong/Eurasian_Tree_Sparrow.mp3"),
+    // "Brown-eared_Bulbul.mp3": require("@/assets/birdsong/Brown-eared_Bulbul.mp3"),
+    "Oriental_Turtle_Dove.mp3": require("@/assets/birdsong/Oriental_Turtle_Dove.mp3"),
+    "Australian_Magpie.mp3": require("@/assets/birdsong/Australian_Magpie.mp3"),
+    // "Rainbow_Lorikeet.mp3": require("@/assets/birdsong/Rainbow_Lorikeet.mp3"),
+    "Laughing_Kookaburra.mp3": require("@/assets/birdsong/Laughing_Kookaburra.mp3"),
+    // "Sulphur-crested_Cockatoo.mp3": require("@/assets/birdsong/Sulphur-crested_Cockatoo.mp3"),
+    "Common_Bulbul.mp3": require("@/assets/birdsong/Common_Bulbul.mp3"),
+    "Superb_Starling.mp3": require("@/assets/birdsong/Superb_Starling.mp3"),
+    "Great_Kiskadee.mp3": require("@/assets/birdsong/Great_Kiskadee.mp3"),
+    "Northern_Cardinal.mp3": require("@/assets/birdsong/Northern_Cardinal.mp3"),
+    "American_Robin.mp3": require("@/assets/birdsong/American_Robin.mp3"),
+    // "Yellow-vented_Bulbul.mp3": require("@/assets/birdsong/Yellow-vented_Bulbul.mp3"),
+    "Eurasian_Magpie.mp3": require("@/assets/birdsong/Eurasian_Magpie.mp3"),
+    "Barn_Swallow.mp3": require("@/assets/birdsong/Barn_Swallow.mp3"),
+    "Red-winged_Blackbird.mp3": require("@/assets/birdsong/Red-winged_Blackbird.mp3"),
+    "European_Robin.mp3": require("@/assets/birdsong/European_Robin.mp3"),
+    "Rock_Pigeon.mp3": require("@/assets/birdsong/Rock_Pigeon.mp3"),
+    "Zebra_Dove.mp3": require("@/assets/birdsong/Zebra_Dove.mp3"),
+    "Eastern_Bluebird.mp3": require("@/assets/birdsong/Eastern_Bluebird.mp3"),
+    "Pied_Bushchat.mp3": require("@/assets/birdsong/Pied_Bushchat.mp3"),
+    "Common_Myna.mp3": require("@/assets/birdsong/Common_Myna.mp3"),
+    "Mallard.mp3": require("@/assets/birdsong/Mallard.mp3")
+};
 
 
 export default Birds;
