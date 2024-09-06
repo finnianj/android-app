@@ -1,7 +1,7 @@
 import { View, Text, ImageBackground } from 'react-native';
 
 import React from 'react';
-import beachImage from '@/assets/meditation-images/beach.webp';
+import homeImage from '@/assets/bird-images/owl.jpg';
 
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
@@ -15,29 +15,31 @@ const App = () => {
   return (
     <View className='flex-1'>
       <ImageBackground
-        source={beachImage}
+        source={homeImage}
         resizeMode='cover'
         className='flex-1 fixed top-0 left-0 w-full h-full'
       >
-        <AppGradient colors={['rgba(0,0,0,0.4)', 'rgba(0,0,0,0.8)']}>
+        <AppGradient colors={['rgba(0,0,0,0.1)', 'rgba(0,0,0,0.7)']}>
             <SafeAreaView className='flex-1 px-1 justify-between'>
               <View>
                 <Text className='text-white text-center text-4xl font-bold'>
-                  Common Birds
+                  Avian Explorer
                 </Text>
                 <Text className='text-white text-center text-lg mt-3'>
-                  Get to know some of the most common birds and where to find them!
+                  Get to know some of the world's most common birds!
                 </Text>
               </View>
               <View>
                 <CustomButton
+                  containerStyles='bg-transparent border border-white'
+                  textStyles='text-white'
                   onPress={() => router.push("/bird-index")}
                   title='Start'
                 />
               </View>
-              <StatusBar style='light' />
             </SafeAreaView>
         </AppGradient>
+        <StatusBar style='light' />
 
       </ImageBackground>
     </View>

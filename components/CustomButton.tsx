@@ -13,9 +13,9 @@ export default function CustomButton({ onPress, title, textStyles = '', containe
         <TouchableOpacity 
             activeOpacity={0.7}
             onPress={onPress}
-            className={`bg-white rounded-xl min-h-[62px] justify-center items-center ${containerStyles}`}
+            className={`rounded-xl min-h-[62px] justify-center items-center ${containerStyles}`}
         >
-            <Text className={`text-lg font-semibold ${textStyles}`}>{title}</Text>
+            <Text className={`text-lg text-white font-semibold ${textStyles}`}>{title}</Text>
         </TouchableOpacity>
     )
 }
