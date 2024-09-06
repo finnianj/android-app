@@ -1,4 +1,4 @@
-import React, { useCallback, useState, useRef, useContext, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { ImageBackground, View, Text, Pressable, ImageSourcePropType } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 
@@ -7,8 +7,6 @@ import { BIRD_IMAGES } from '@/constants/bird-images';
 
 import AppGradient from '@/components/AppGradient';
 import { AntDesign } from '@expo/vector-icons';
-import CustomButton from '@/components/CustomButton';
-import { TimerContext } from '@/context/TimerContext';
 
 import { Audio, AVPlaybackStatus } from 'expo-av';
 
