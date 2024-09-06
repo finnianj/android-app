@@ -15,7 +15,7 @@ export function BirdIndex() {
       <View className='flex-1'>
         <AppGradient colors={['#1A3636', '#40534C', '#677D6A', '#D6BD98']}>
           <View className='mb-6'>
-            <Text className='text-gray-200 mb-3 font-bold text-4xl text-left'>Welcome!</Text>
+            <Text className='text-gray-200 mb-3 font-bold text-4xl text-left'>Welcome! 👋</Text>
             <Text className='text-gray-200 font-medium text-xl'>Start learning about common birds today.</Text>
             <StatusBar style='light' />
           </View>

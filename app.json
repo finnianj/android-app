@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "meditation",
-    "slug": "meditation",
+    "name": "Avian Explorer",
+    "slug": "Avian-Explorer",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -14,14 +14,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.finnianj.meditation"
+      "bundleIdentifier": "com.finnianj.AvianExplorer",
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.finnianj.meditation"
+      "package": "com.finnianj.AvianExplorer"
     },
     "web": {
       "bundler": "metro",
