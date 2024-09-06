@@ -12,14 +12,14 @@ const TabLayout = () => {
             name='bird-index' 
             options={{ 
                 tabBarLabel: 'Birds', 
-                tabBarIcon:  ({ color }) => <Entypo name='open-book' size={24} color={color} />
+                tabBarIcon:  ({ color }) => <MaterialCommunityIcons name="bird" size={24} color={color} />
             }} 
         />
         <Tabs.Screen 
             name='countries' 
             options={{ 
                 tabBarLabel: 'Countries', 
-                tabBarIcon:  ({ color }) => <Entypo name='open-book' size={24} color={color} />
+                tabBarIcon:  ({ color }) => <Entypo name="globe" size={24} color={color} />
             }} 
         />
     </Tabs>
