@@ -16,7 +16,7 @@ import Sulphur_crested_Cockatoo from "@/assets/bird-images/Sulphur-crested_Cocka
 import Common_Bulbul from "@/assets/bird-images/Common_Bulbul.jpg";
 import Superb_Starling from "@/assets/bird-images/Superb_Starling.jpg";
 import Great_Kiskadee from "@/assets/bird-images/Great_Kiskadee.jpg";
-// import Northern_Cardinal from "@/assets/bird-images/Northern_Cardinal.jpg";
+import Northern_Cardinal from "@/assets/bird-images/Northern_Cardinal.jpg";
 import American_Robin from "@/assets/bird-images/American_Robin.jpg";
 import Yellow_vented_Bulbul from "@/assets/bird-images/Yellow-vented_Bulbul.jpg";
 
@@ -39,7 +39,7 @@ export const BIRD_IMAGES: { [key: number]: string } = {
     15: Common_Bulbul,
     16: Superb_Starling,
     17: Great_Kiskadee,
-    18: '',
+    18: Northern_Cardinal,
     19: American_Robin,
     20: Yellow_vented_Bulbul
 };
