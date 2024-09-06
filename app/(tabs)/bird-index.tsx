@@ -43,8 +43,6 @@ export function BirdIndex() {
                       </LinearGradient>
                     </ImageBackground>
                   </Pressable>
-                  {/* If last item, add padding below */}
-                  {Number(item.id) === Birds.length && <View className='pb-4' />}
                 </>
               )} 
             />
