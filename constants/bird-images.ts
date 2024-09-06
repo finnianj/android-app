@@ -19,6 +19,16 @@ import Great_Kiskadee from "@/assets/bird-images/Great_Kiskadee.jpg";
 import Northern_Cardinal from "@/assets/bird-images/Northern_Cardinal.jpg";
 import American_Robin from "@/assets/bird-images/American_Robin.jpg";
 import Yellow_vented_Bulbul from "@/assets/bird-images/Yellow-vented_Bulbul.jpg";
+import Eurasian_Magpie from "@/assets/bird-images/Eurasian_Magpie.jpg";
+import Barn_Swallow from "@/assets/bird-images/Barn_Swallow.jpg";
+import RedWinged_Blackbird from "@/assets/bird-images/Red-winged_Blackbird.png";
+import European_Robin from "@/assets/bird-images/European_Robin.jpg";
+import Rock_Pigeon from "@/assets/bird-images/Rock_Pigeon.jpg";
+import Zebra_Dove from "@/assets/bird-images/Zebra_Dove.jpg";
+import Eastern_Bluebird from "@/assets/bird-images/Eastern_Bluebird.jpg";
+import Pied_Bushchat from "@/assets/bird-images/Pied_Bushchat.jpg";
+import Common_Myna from "@/assets/bird-images/Common_Myna.jpg";
+import Mallard from "@/assets/bird-images/Mallard.jpg";
 
 // Exporting images with the appropriate bird ID as the key
 export const BIRD_IMAGES: { [key: number]: string } = {
@@ -41,5 +51,15 @@ export const BIRD_IMAGES: { [key: number]: string } = {
     17: Great_Kiskadee,
     18: Northern_Cardinal,
     19: American_Robin,
-    20: Yellow_vented_Bulbul
+    20: Yellow_vented_Bulbul,
+    21: Eurasian_Magpie,
+    22: Barn_Swallow,
+    23: RedWinged_Blackbird,
+    24: European_Robin,
+    25: Rock_Pigeon,
+    26: Zebra_Dove,
+    27: Eastern_Bluebird,
+    28: Pied_Bushchat,
+    29: Common_Myna,
+    30: Mallard
 };

@@ -23,7 +23,7 @@ export function BirdIndex() {
             <FlatList 
               data={Birds} 
               className='mb-[120px]' 
-              keyExtractor={item => item.id}
+              keyExtractor={item => item.id.toString()}
               showsVerticalScrollIndicator={false}
               renderItem={({ item }) => (
                 <>
@@ -32,7 +32,7 @@ export function BirdIndex() {
                     className='h-48 my-3 rounded-md overflow-hidden'
                   >
                     <ImageBackground
-                      source={BIRD_IMAGES[Number(item.id)] as ImageSourcePropType}
+                      source={BIRD_IMAGES[item.id] as ImageSourcePropType}
                       resizeMode='cover'
                       // className='flex-1 rounded-lg justify-center'
                       style={{ width: '100%', height: 300, justifyContent: 'flex-start' }} // Height is adjustable

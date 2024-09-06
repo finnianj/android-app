@@ -26,7 +26,7 @@ const CountryGallery = ({ name, data }: CountryGalleryProps) => {
                     <Link href={`/bird/${item}`} asChild>
                         <Pressable>
                             <View className='h-36 w-32 rounded-md mr-4'>
-                                <Image source={BIRD_IMAGES[item] as ImageSourcePropType} resizeMode='cover' className='w-full h-full' />
+                                <Image source={BIRD_IMAGES[item] as ImageSourcePropType} resizeMode='cover' className='w-full h-full rounded-xl' />
                             </View>
                         </Pressable>
                     </Link>
