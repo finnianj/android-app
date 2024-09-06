@@ -92,6 +92,9 @@ const Bird = () => {
                     </Pressable>
                     <View className='flex-1 justify-center space-y-4'>
                         <Text className='text-gray-100 text-3xl font-bold text-center'>{Birds[Number(id) - 1].name}</Text>
+                        {/* italic */}
+
+                        <Text className='text-gray-100 italic text-lg text-center'>({Birds[Number(id) - 1].scientificName})</Text>
                         <Text className='text-gray-100 text-xl font-bold text-center'>{Birds[Number(id) - 1].description}</Text>
                         {isLoaded && (
                             <Pressable onPress={playPauseHandler} className='mx-auto'>

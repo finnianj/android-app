@@ -61,6 +61,8 @@ export function BirdIndex() {
                       </LinearGradient>
                     </ImageBackground>
                   </Pressable>
+                  {/* Add padding below last item */}
+                  {item.id === shuffledBirds[shuffledBirds.length - 1].id && <View className='mb-4' />}
                 </>
               )} 
             />

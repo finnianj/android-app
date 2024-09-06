@@ -23,7 +23,7 @@ export default function RootLayout() {
             <Stack.Screen name='(tabs)' options={{ headerShown: false }} />
             <Stack.Screen name='index' options={{ headerShown: false }} />
             <Stack.Screen name='bird/[id]' options={{ headerShown: false }} />
-            {/* <Stack.Screen name='(modal)/adjust-meditation-duration' options={{ headerShown: false, presentation: "modal" }} /> */}
+            {/* <Stack.Screen name='(modal)/adjust-Avian-Explorer-duration' options={{ headerShown: false, presentation: "modal" }} /> */}
         </Stack>
     )
 }
